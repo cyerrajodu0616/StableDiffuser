@@ -1,0 +1,15 @@
+conda create -n <environment Name>
+conda activate <environment name>
+
+Install below modules 
+    pip install torch
+    pip install diffusers 
+    conda install -c anaconda tk
+    pip install tk 
+    pip install transformers
+    pip install accelerate
+    conda install cuda -c nvidia
+    
+
+https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+https://github.com/nicknochnack/StableDiffusionApp
