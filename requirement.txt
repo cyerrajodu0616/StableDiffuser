@@ -8,7 +8,8 @@ Install below modules
     pip install tk 
     pip install transformers
     pip install accelerate
-    conda install cuda -c nvidia
+    conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+    pip install chardet
     
 
 https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
